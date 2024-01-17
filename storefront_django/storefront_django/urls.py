@@ -21,6 +21,6 @@ from . import views
 #URLConf
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('playground/', include('playground.urls')),
+    #path('playground/', include('playground.urls')),
     path('get-weather-report/', views.weather)
 ]
